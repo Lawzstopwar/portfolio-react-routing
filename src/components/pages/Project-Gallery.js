@@ -18,41 +18,20 @@ function ProjectGallery() {
       image: "https://github.com/Lawzstopwar/Work-Day-Scheduler/raw/main/images/Animated-Work-Scheduler.gif"
     },
     {
-      id: 2,
+      id: 3,
       title: "Challenge README.md",
       github_link: "https://github.com/Lawzstopwar/ChallengeReadme",
       deployed_link: "https://lawzstopwar.github.io/ChallengeReadme/",
       image: "https://github.com/Lawzstopwar/ChallengeReadme/raw/main/images/README.md-test-run.gif"
     },
-    {
-      id: 2,
-      title: "Challenge README.md",
-      github_link: "https://github.com/Lawzstopwar/ChallengeReadme",
-      deployed_link: "https://lawzstopwar.github.io/ChallengeReadme/",
-      image: "https://github.com/Lawzstopwar/ChallengeReadme/raw/main/images/README.md-test-run.gif"
-    },
-    {
-      id: 2,
-      title: "Challenge README.md",
-      github_link: "https://github.com/Lawzstopwar/ChallengeReadme",
-      deployed_link: "https://lawzstopwar.github.io/ChallengeReadme/",
-      image: "https://github.com/Lawzstopwar/ChallengeReadme/raw/main/images/README.md-test-run.gif"
-    },
-    {
-      id: 2,
-      title: "Challenge README.md",
-      github_link: "https://github.com/Lawzstopwar/ChallengeReadme",
-      deployed_link: "https://lawzstopwar.github.io/ChallengeReadme/",
-      image: "https://github.com/Lawzstopwar/ChallengeReadme/raw/main/images/README.md-test-run.gif"
-    }
-   
+
   ]
 
 
   return (
     <div>
       <h1>Project Gallery Page</h1>
-      <div class="d-flex justify-space-around w-100">
+      <div className="d-flex justify-space-around w-500">
         <Project 
           image={data[0].image}
           title={data[0].title}
@@ -70,24 +49,6 @@ function ProjectGallery() {
           title={data[2].title}
           deployed_link={data[2].deployed_link}
           github_link={data[2].github_link}
-        />
-        <Project 
-          image={data[3].image}
-          title={data[3].title}
-          deployed_link={data[3].deployed_link}
-          github_link={data[3].github_link}
-        />
-        <Project 
-          image={data[4].image}
-          title={data[4].title}
-          deployed_link={data[4].deployed_link}
-          github_link={data[4].github_link}
-        />
-        <Project 
-          image={data[5].image}
-          title={data[5].title}
-          deployed_link={data[5].deployed_link}
-          github_link={data[5].github_link}
         />
       </div>
     </div>

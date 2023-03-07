@@ -1,26 +1,32 @@
 import React from 'react';
 import { Link, Route, Routes } from 'react-router-dom';
 // import Learn from './Project';
+import Card from 'react-bootstrap/Card';
+import ListGroup from 'react-bootstrap/ListGroup';
 
-function Contact(props) {
+function KitchenSinkExample() {
   return (
-    <div>
-      <h1>Contact Page</h1>
-      <p>
-        Integer cursus bibendum sem non pretium. Vestibulum in aliquet sem, quis
-        molestie urna. Aliquam semper ultrices varius. Aliquam faucibus sit amet
-        magna a ultrices. Aenean pellentesque placerat lacus imperdiet
-        efficitur. In felis nisl, luctus non ante euismod, tincidunt bibendum
-        mi. In a molestie nisl, eu sodales diam. Nam tincidunt lacus quis magna
-        posuere, eget tristique dui dapibus. Maecenas fermentum elementum
-        faucibus. Quisque nec metus vestibulum, egestas massa eu, sollicitudin
-        ipsum. Nulla facilisi. Sed ut erat ligula. Nam tincidunt nunc in nibh
-        dictum ullamcorper. Class aptent taciti sociosqu ad litora torquent per
-        conubia nostra, per inceptos himenaeos. Etiam ornare rutrum felis at
-        rhoncus. Etiam vel condimentum magna, quis tempor nulla.
-      </p>
-    </div>
+    <Card style={{ width: '18rem' }}>
+      <Card.Img variant="top" src= "(holder.js/100px180?text=Image cap)" />
+      <Card.Body>
+        <Card.Title>Contact</Card.Title>
+        <Card.Text>
+          You may get in touch through the information below.
+        </Card.Text>
+      </Card.Body>
+      <ListGroup className="list-group-flush">
+        <ListGroup.Item>lawzstopwar@gmail.com</ListGroup.Item>
+        <ListGroup.Item>Contact number provided upon request</ListGroup.Item>
+        <ListGroup.Item>PDF version of my resume will be provided upon request</ListGroup.Item>
+      </ListGroup>
+      <Card.Body>
+        <Card.Link href="https://github.com/Lawzstopwar">Github Profile</Card.Link>
+        <Card.Link href="https://www.linkedin.com/in/lawz-stopwar-50a18725a/">LinkedIn Page</Card.Link>
+      </Card.Body>
+    </Card>
   );
 }
 
-export default Contact;
+export default KitchenSinkExample;
+
+
