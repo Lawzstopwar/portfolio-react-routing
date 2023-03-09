@@ -26,24 +26,24 @@ function ProjectGallery() {
     },
     {
       id: 4,
-      title: "Challenge README.md",
-      github_link: "https://github.com/Lawzstopwar/ChallengeReadme",
-      deployed_link: "https://lawzstopwar.github.io/ChallengeReadme/",
-      image: "https://github.com/Lawzstopwar/ChallengeReadme/raw/main/images/README.md-test-run.gif"
+      title: "Team Profile Generator",
+      github_link: "https://github.com/Lawzstopwar/Team-Profile-Generator",
+      deployed_link: " https://lawzstopwar.github.io/Team-Profile-Generator//",
+      image: "https://github.com/Lawzstopwar/Team-Profile-Generator/raw/main/assets/Team-generator.png"
     },
     {
       id: 5,
-      title: "Challenge README.md",
-      github_link: "https://github.com/Lawzstopwar/ChallengeReadme",
-      deployed_link: "https://lawzstopwar.github.io/ChallengeReadme/",
-      image: "https://github.com/Lawzstopwar/ChallengeReadme/raw/main/images/README.md-test-run.gif"
+      title: "Password Generator",
+      github_link: "https://github.com/Lawzstopwar/Password-Generator",
+      deployed_link: " https://lawzstopwar.github.io/Password-Generator/",
+      image: "https://github.com/Lawzstopwar/Password-Generator/raw/main/assets/Screeshort-PG.png"
     },
     {
       id: 6,
-      title: "Challenge README.md",
-      github_link: "https://github.com/Lawzstopwar/ChallengeReadme",
-      deployed_link: "https://lawzstopwar.github.io/ChallengeReadme/",
-      image: "https://github.com/Lawzstopwar/ChallengeReadme/raw/main/images/README.md-test-run.gif"
+      title: "Console Finance",
+      github_link: "https://github.com/Lawzstopwar/Console-Finances",
+      deployed_link: " https://lawzstopwar.github.io/Console-Finances/",
+      image: "https://github.com/Lawzstopwar/Console-Finances/raw/main/images/console.log-data.png"
     },
 
 
