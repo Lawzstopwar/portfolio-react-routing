@@ -4,10 +4,12 @@ import { Link, Route, Routes } from 'react-router-dom';
 import Card from 'react-bootstrap/Card';
 import ListGroup from 'react-bootstrap/ListGroup';
 
+import contactImage from "../images/contact.mode.png";
+
 function KitchenSinkExample() {
   return (
     <Card style={{ width: '18rem' }}>
-      <Card.Img variant="top" src= "(holder.js/100px180?text=Image cap)" />
+      <Card.Img variant="top" src= {contactImage} />
       <Card.Body>
         <Card.Title>Contact</Card.Title>
         <Card.Text>
